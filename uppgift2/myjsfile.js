@@ -20,7 +20,9 @@ function numberSeek(){
     console.log(output);
     document.getElementById("output").innerHTML = output;
 }
-
+/*
+    numberToLookFor.apply(null,[1,2,3])
+*/
 function numberToLookFor(){
     for (var i = 0; i < arguments.length;i++){
         console.log("Trying: " + arguments[i]);
