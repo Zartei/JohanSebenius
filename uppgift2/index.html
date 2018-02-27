@@ -8,10 +8,11 @@
 </head>
 <body>
    
-        Numer to look for: <br>
-        <input id="input" type"text" name="firstname">
-        <br>
-        <input type="submit" onclick="numberSeek()">
+    Numer to look for: <br>
+    <input id="input" type"text" name="firstname">
+    <br>
+    <input type="submit" onclick="numberSeek()">
+    <p id="output"></p>
 
 
 </body>
@@ -30,6 +31,7 @@
             output = "Rätt Svar";
         }
     console.log(output);
+    document.getElementById("output").innerHTML = output;
     }
 </script>
 </html>
