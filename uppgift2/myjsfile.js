@@ -38,3 +38,19 @@ function numberToLookFor(){
         console.log(arguments[i] + " är "+ output);
     }
 }
+
+function ovning41(x, y){
+    return x * y;
+}
+
+function ovning42(x, y){
+    return x / y;
+}
+
+function ovning43(x, y){
+    return x + y;
+}
+
+function ovning44(x, y){
+    return x - y;
+}
