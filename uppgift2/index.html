@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS stuff</title>
+</head>
+<body>
+   
+        Numer to look for: <br>
+        <input id="input" type"text" name="firstname">
+        <br>
+        <input type="submit" onclick="numberSeek()">
+
+
+</body>
+<script>
+    var sok = 8;
+    var output = "Not set"
+    function numberSeek(){
+        var tal = document.getElementById("input").value;
+        if (tal > sok) {
+            output = "För högt";
+        } 
+        else if (tal < sok) {
+            output = "För lågt";
+        } 
+        else {
+            output = "Rätt Svar";
+        }
+    console.log(output);
+    }
+</script>
+</html>
